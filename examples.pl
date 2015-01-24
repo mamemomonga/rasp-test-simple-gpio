@@ -19,6 +19,8 @@ sub example1 {
 	# LEDの設定
 	my %leds=(
 		# gpio => はピン番号ではなく、BCM2835のGPIO番号を指定する。
+		# ここの例で使っているピンは+のないModel A/Bには存在しない。
+
 		# function => 'output' でピンを出力に設定
 		'led1'  => Device::BCM2835::SimpleGPIO->new( gpio=>16, function=>'output' ),
 		'led2'  => Device::BCM2835::SimpleGPIO->new( gpio=>20, function=>'output' ),
