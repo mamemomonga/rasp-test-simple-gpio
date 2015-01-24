@@ -1,6 +1,7 @@
 package Device::BCM2835::SimpleGPIO;
 use strict;
 use warnings;
+# https://github.com/mamemomonga/rasp-test-simple-gpio
 
 # 参考:
 # http://search.cpan.org/~mikem/Device-BCM2835-1.1/lib/Device/BCM2835.pm
